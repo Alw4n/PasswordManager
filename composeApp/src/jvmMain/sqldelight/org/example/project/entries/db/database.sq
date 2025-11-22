@@ -1,0 +1,9 @@
+package org.example.project.db;
+
+CREATE TABLE test_table (
+  id INTEGER NOT NULL PRIMARY KEY,
+  value TEXT NOT NULL
+);
+
+selectAllTest:
+SELECT * FROM test_table;

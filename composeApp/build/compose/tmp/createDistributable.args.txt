@@ -1,0 +1,30 @@
+--input
+"D:\\KotlinProject\\composeApp\\build\\compose\\tmp\\createDistributable\\libs"
+--runtime-image
+"D:\\KotlinProject\\composeApp\\build\\compose\\tmp\\main\\runtime"
+--resource-dir
+"D:\\KotlinProject\\composeApp\\build\\compose\\tmp\\resources"
+--java-options
+"'-Dcompose.application.resources.dir=$APPDIR\\resources'"
+--main-jar
+"composeApp-jvm-27d756e9da7fc416242c1cf42f71ec.jar"
+--main-class
+"org.example.project.MainKt"
+--icon
+"D:\\KotlinProject\\composeApp\\build\\compose\\default-resources\\1.9.1\\default-icon-windows.ico"
+--java-options
+"'-Dcompose.application.configure.swing.globals=true'"
+--java-options
+"'-Dskiko.library.path=$APPDIR'"
+--type
+"app-image"
+--dest
+"D:\\KotlinProject\\composeApp\\build\\compose\\binaries\\main\\app"
+--name
+"MyPasswordManager"
+--description
+"Password manager"
+--app-version
+"1.0.0"
+--vendor
+"Your Company"
